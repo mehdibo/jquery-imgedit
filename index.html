@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>imgEdit jQuery plugin</title>
+        <meta charset="utf-8">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="./imgEdit.js"></script>
+    </head>
+    <body>
+        <form action="" method="POST" id="target-form"></form>
+        <img src="http://via.placeholder.com/100x100" id="target" />
+    <script>
+    $("#target").imgEdit({
+			inputName : "profile-picture",
+			form : "#target-form",
+		});
+    </script>
+    </body>
+</html>
